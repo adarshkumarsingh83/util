@@ -26,3 +26,13 @@
 
 ### to install tree cmd in mac 
 * $ brew install tree
+
+$ lsof -i :<port>
+$ kill -9 <pid>
+$ sudo find / -name <cassandra>
+$ ps -ax | grep cassandra
+
+## to know the process id for 
+$ ps -A | grep -m1 <process name> | awk '{print $1}'
+$ lsof -nP -i4TCP:$8081 | grep LISTEN 
+$ ps -ef | grep tomcat
