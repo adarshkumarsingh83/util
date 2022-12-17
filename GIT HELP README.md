@@ -77,6 +77,29 @@
 *  push the changes to remote 
 	* $ git push --set-upstream origin <'new_branch'> 
 
+## TAGS CREATIONS IN GIT
+
+* to list the tags
+	* $ git tag 
+
+* to create tags
+	* $ git tag <tagname>
+
+* to push tag to remote 
+	* $ git push origin --tags
+
+* Delete and recreate the tag locally
+	* git tag -d {tagname}
+	* git tag {tagname}
+ 
+* Delete and recreate the tag remotely
+	* git push origin :{tagname} // deletes original remote tag
+    * git push origin {tagname} // creates new remote tag
+                
+
+## Git cherry pic 
+* git cherry pic 
+	* $ git cherry-pick <'commit id'>
 
 
 ## GIT FORK PROCESS
